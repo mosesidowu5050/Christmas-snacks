@@ -5,6 +5,7 @@ public class PizzaWahalaApp {
     
     Scanner reader = new Scanner(System.in);
 
+<<<<<<< HEAD
     System.out.println("\n\tWELCOME TO IYA MOSES PIZZA JOINT AJEGUNLE\n");
     System.out.println("What would you like to order from us ?...");
 
@@ -49,6 +50,9 @@ else if (userOption == 0){
                   
     } 
         
+=======
+
+>>>>>>> 6f97f2c3e6351fb4f174cb40fbaec1585c0317a5
 
 }
 
