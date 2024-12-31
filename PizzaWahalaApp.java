@@ -5,10 +5,12 @@ public class PizzaWahalaApp {
     
     Scanner reader = new Scanner(System.in);
 
-  System.out.println("""
-        \n\tIYA MOSES PIZZA JOINT AJEGUNLE
+    System.out.println("\n\tWELCOME TO IYA MOSES PIZZA JOINT AJEGUNLE\n");
+    System.out.println("What would you like to order from us ?...");
 
-    PIZZA TYPE          NUMBER OF SLICES        PRICE PER BOX
+  System.out.println("""
+        
+    PIZZA TYPE     |    NUMBER OF SLICES    |    PRICE PER BOX
 1.  Supa size               4                       2,500
 
 2.  Small Money             6                       2,900
@@ -21,7 +23,6 @@ public class PizzaWahalaApp {
 
     """);
 
-    System.out.println("Hello, You are welcome to Iya Moses Pizza Joint...");
     
 while (true){
     System.out.println("You can enter your choice of Pizza Type from (1 - 5) and (press 0 to Exit)...");
@@ -30,10 +31,11 @@ if (userOption == 5){
     System.out.println("\nEnter the number of people you want to order for? ...");
     int option1 = reader.nextInt();
     
-if (option1 == 45){
+if (option1 %= 1){
     System.out.println("\nNumber of boxes of pizza to buy = 4 boxes (explanation: Odogwu size contains 12 slices per box, 4 boxes should be sufficient for 45 persons as it would contain 48 slices in all).");
     System.out.println("Number left over slices after serving = 3 slices (explanation: After serving 45 slices, you should have 3 slices left).");
     System.out.println("\nPrice = 20,800 (explanation: 5,200 per box for 4 boxes).");
+    
     }
 else if (option1 == 1){
     System.out.println("\nNumber of box of pizza to buy = 1 box (explanation: Odogwu size contains 12 slices per box).");
